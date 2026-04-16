@@ -29,5 +29,5 @@ def get_current_weather(lat: float, lon: float, units: str = "metric") -> dict: 
 
 
 def calculate_bmi(weight_kg, height_m):
-    """Docsting test."""
+    """Docsting test2."""
     return weight_kg / height_m**2
