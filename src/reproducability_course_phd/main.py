@@ -24,6 +24,7 @@ def add(a: int, b: int) -> int:
 
 def foo2(a):
   b = 0
+  d = 7
   c = a + 1  
   if a > 0:
     if a > 10:
