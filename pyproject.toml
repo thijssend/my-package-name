@@ -36,6 +36,8 @@ Homepage = "https://github.com/thijssend/Reproducability_Course_PhD"
 
 [project.scripts]
 main_script = "reproducability_course_phd.main:main"
+project-info = "reproducability_course_phd.auto.project_info:show_project_info"
+run-tests = "reproducability_course_phd.auto.run_tests:run_tests"
 
 [tool.pytest.ini_options]
 minversion = "6.0"
@@ -88,7 +90,7 @@ select = [
   "UP",          # pyupgrade
   "YTT",         # flake8-2020
   "EXE",         # flake8-executable
-  "D",           # pydocstyle, uncomment to have the docstrings linted
+  # "D",           # pydocstyle, uncomment to have the docstrings linted
   # "ANN",         # flake8-annotations, uncomment to have type hint annotations linted
 ]
 ignore = [

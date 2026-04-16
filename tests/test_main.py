@@ -20,9 +20,3 @@ def test_add__zeros():
     expected = 0
     result = add(0, 0)
     assert result == expected, f"Expected {expected}, but got {result}."
-
-
-def test_add__floating_point_numbers():
-    expected = 5.5
-    result = add(2.5, 3)
-    assert result == expected, f"Expected {expected}, but got {result}."

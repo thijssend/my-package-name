@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier
-_commit: v0.5.1
+_commit: v0.5.2
 _src_path: git+https://gitlab.ewi.tudelft.nl/reit/python-package-template
 email: D.Thijssen@tudelft.nl
 environment_manager: uv
