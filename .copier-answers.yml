@@ -1,0 +1,13 @@
+# Changes here will be overwritten by Copier
+_commit: v0.5.1
+_src_path: git+https://gitlab.ewi.tudelft.nl/reit/python-package-template
+email: D.Thijssen@tudelft.nl
+environment_manager: uv
+full_name: Dirk Thijssen
+host: github.com
+license: GPL
+min_python_version: '3.10'
+org: thijssend
+project_name: Reproducability_Course_PhD
+project_short_description: A great package.
+url: https://github.com/thijssend/Reproducability_Course_PhD

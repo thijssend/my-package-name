@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: Reproducability_Course_PhD
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+version: 0.0.1
+authors:
+  - given-names: Dirk
+    family-names: Thijssen
+    email: D.Thijssen@tudelft.nl
+    affiliation: TU Delft
+repository-code: https://github.com/thijssend/Reproducability_Course_PhD
+license: GPL
+# identifiers:
+#   - type: doi
+#     value: 10.5281/zenodo.1234 # Uncomment this and replace it with a real DOI
