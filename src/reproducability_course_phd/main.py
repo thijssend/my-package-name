@@ -22,7 +22,7 @@ def add(a: int, b: int) -> int:
     return a + b
 
 
-def foo3(a):
+def foo3(a):  # noqa: D103
     b = 0  # noqa: F841
     c = a + 1
     if a > 0:  # noqa: SIM102
@@ -31,7 +31,7 @@ def foo3(a):
     return a + c
 
 
-def foo4():
+def foo4():  # noqa: D103
 
     menu_1 = {"1": "Start Game", "2": "Load Game", "3": "Options", "4": "Exit"}
 
@@ -48,7 +48,7 @@ def foo4():
     return menu_1, menu_2
 
 
-def main() -> None:
+def main() -> None:  # noqa: D103
     print(f"Running reproducability_course_phd version {__version__}")
     print(f"Result is: 1+2 = {add(1, 2)}")
 
