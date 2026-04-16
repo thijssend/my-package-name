@@ -1,4 +1,4 @@
-import requests  # noqa: D100
+import requests
 
 
 def get_current_weather(lat: float, lon: float, units: str = "metric") -> dict:  # noqa: ARG001
