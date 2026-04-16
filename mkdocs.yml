@@ -1,4 +1,4 @@
-site_name: Reproducability_Course_PhD
+site_name: Very Cool Docs, greetings all
 site_description: Documentation for Reproducability_Course_PhD
 site_author: Dirk Thijssen
 
@@ -7,6 +7,7 @@ repo_url: https://github.com/thijssend/Reproducability_Course_PhD
 nav:
   - Home:
       - index.md
+  - My First Page: my-first-page.md
 
 theme:
   language: en
