@@ -22,6 +22,14 @@ def add(a: int, b: int) -> int:
     return a + b
 
 
+def foo1(a):
+    b = 0
+    c = a + 1
+    if a > 0 and a > 10:
+        return 10
+    return a + b + c
+
+
 def main() -> None:
     print(f"Running reproducability_course_phd version {__version__}")
     print(f"Result is: 1+2 = {add(1, 2)}")
