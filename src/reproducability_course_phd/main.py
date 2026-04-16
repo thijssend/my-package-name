@@ -31,6 +31,22 @@ def foo3(a):
     return a + c
 
 
+def foo4():
+
+    menu_1 = {"1": "Start Game", "2": "Load Game", "3": "Options", "4": "Exit"}
+
+    # fmt: off
+    menu_2 = {
+      "1": "Start Game",
+      "2": "Load Game",
+      "3": "Options",
+      "4": "Exit"
+  }
+    # fmt: on
+
+    return menu_1, menu_2
+
+
 def main() -> None:
     print(f"Running reproducability_course_phd version {__version__}")
     print(f"Result is: 1+2 = {add(1, 2)}")
