@@ -40,7 +40,8 @@ def foo4():
       "1": "Start Game",
       "2": "Load Game",
       "3": "Options",
-      "4": "Exit"
+      "4": "Exit",
+      "5": "Extra"
   }
     # fmt: on
 
